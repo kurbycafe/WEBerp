@@ -15,4 +15,10 @@ public class PersonalController {
     public String personal() {
         return "personal/list";
     }
+
+    @GetMapping("/view")
+    public String personalView() {
+        return "personal/view";
+    }
+
 }
